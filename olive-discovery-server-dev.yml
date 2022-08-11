@@ -1,0 +1,19 @@
+server:
+  port: 7074
+  
+spring:
+  application:
+    name: olive-discovery-server
+    
+eureka:
+  instance:
+    hostname: 68.183.95.228
+  client:
+    serviceUrl: 
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+    register-with-eureka: false
+    fetch-registry: false
+    
+logging:
+  file:
+    name: ./logs/olive-discovery-server.log
