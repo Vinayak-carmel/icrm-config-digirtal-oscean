@@ -15,8 +15,8 @@ auth:
   client-id: "olive@carmelsolutions"
   grant-type: "password"
   
-upload-path:
-  profile-pic-path: /Users/ronaldphilip/olive-uploads
+#upload-path:
+  #profile-pic-path: /Users/ronaldphilip/olive-uploads
 
 spring:
   security:
